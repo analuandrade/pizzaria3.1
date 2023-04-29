@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivoCSS/stylecads.css">
+    <title>Cadastro De Itens</title>
+</head>
+<body>
+ <div class="container">
+  <div class="formimage">
+     <img src="imagens/img1.jpeg" >
+      </div>
+       <div class="formpage">  
+        <a href="home.html" class="back-button">Voltar</a>
+        <div class="formheader">
+         <div class="title">
+          <h1 >PIZZARIA HOT CHILLI PEPPER </h1>
+      </div>
+
+     </div>
+     <!-- inicio formulario -->
+   <div class="formitens">          
+    
+ <form method="post" action="arquivosPHP/itenscad.php" >
+     <h2> Cadastro De Itens</h2>   
+<br>
+   Codigo: <input type="text" name="coditem" placeholder="Codigo Item" required><p><br>
+   Nome Item: <input type="text" name="item" placeholder="Nome Item"> <p><br>
+   Valor Unitario: <input type="text" name="valuni" placeholder="Valor Unitario"> <p><br>
+   Quantidade: <input type="text" name="qtd" placeholder="Quantidade"><p> <br>
+    <input type="submit" name="cadastrar" value="Cadastrar">
+    <input type="submit" name="alterar" value="Alterar">
+    <input type="submit" name="delete" value="Deletar"> 
+   
+
+</form>
+   </div>
+  </div>
+ </body>
+</html>
+
+
